@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"ride-sharing/shared/env"
+	"github.com/samSRaina/hermes/shared/env"
 )
 
 var (
