@@ -3,9 +3,10 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"hermes/services/api-gateway/grpc_clients"
+	"hermes/shared/contracts"
 	"log"
 	"net/http"
-	"ride-sharing/shared/contracts"
 	"time"
 )
 
@@ -29,6 +30,12 @@ func handleTripPreview(w http.ResponseWriter, r *http.Request) {
 
 	jsonBody, _ := json.Marshal(reqBody)
 	reader := bytes.NewReader(jsonBody)
+
+	tripService, err := grpc_clients.NewTripServiceClient()
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer tripService.Close()
 
 	resp, err := http.Post("http://localhost:8083/preview", "application/json", reader)
 	if err != nil {

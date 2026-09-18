@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"hermes/services/trip-service/internal/domain"
+	"hermes/shared/types"
 	"io"
 	"net/http"
-	"ride-sharing/services/trip-service/internal/domain"
-	"ride-sharing/shared/types"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

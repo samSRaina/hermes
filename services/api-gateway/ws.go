@@ -1,10 +1,10 @@
 package main
 
 import (
+	"hermes/shared/contracts"
+	"hermes/shared/util"
 	"log"
 	"net/http"
-	"ride-sharing/shared/contracts"
-	"ride-sharing/shared/util"
 
 	"github.com/gorilla/websocket"
 )

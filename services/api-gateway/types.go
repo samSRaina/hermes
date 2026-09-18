@@ -1,6 +1,6 @@
 package main
 
-import "ride-sharing/shared/types"
+import "hermes/shared/types"
 
 type previewTripRequest struct {
 	UserID      string           `json:"userID"`

@@ -2,10 +2,10 @@ package http
 
 import (
 	"encoding/json"
+	"hermes/services/trip-service/internal/domain"
+	"hermes/shared/types"
 	"log"
 	"net/http"
-	"ride-sharing/services/trip-service/internal/domain"
-	"ride-sharing/shared/types"
 )
 
 type HttpHandler struct {

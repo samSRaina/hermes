@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"ride-sharing/services/trip-service/internal/domain"
+	"hermes/services/trip-service/internal/domain"
 )
 
 type inMemRepository struct {

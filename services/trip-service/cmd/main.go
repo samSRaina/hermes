@@ -1,12 +1,12 @@
 package main
 
 import (
+	handler "hermes/services/trip-service/internal/infrastructure/http"
+	"hermes/services/trip-service/internal/infrastructure/repository"
+	"hermes/services/trip-service/internal/service"
+	"hermes/shared/env"
 	"log"
 	"net/http"
-	handler "ride-sharing/services/trip-service/internal/infrastructure/http"
-	"ride-sharing/services/trip-service/internal/infrastructure/repository"
-	"ride-sharing/services/trip-service/internal/service"
-	"ride-sharing/shared/env"
 
 	"github.com/go-chi/chi/v5"
 )

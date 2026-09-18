@@ -1,7 +1,7 @@
 # API Gateway & Trip Service Interaction Report
 
 ## Executive Summary
-This report details the inner workings and inter-service communication between the `api-gateway` and `trip-service` within the ride-sharing application. It breaks down the current data flow for the `/trip/preview` endpoint and highlights critical configuration and architectural issues that will prevent these services from functioning gracefully in production.
+This report details the inner workings and inter-service communication between the `api-gateway` and `trip-service` within Hermes. It breaks down the current data flow for the `/trip/preview` endpoint and highlights critical configuration and architectural issues that will prevent these services from functioning gracefully in production.
 
 ---
 
