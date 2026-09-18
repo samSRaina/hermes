@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"ride-sharing/shared/env"
+	"hermes/shared/env"
 
 	"github.com/go-chi/chi/v5"
 )

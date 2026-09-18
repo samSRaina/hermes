@@ -2,7 +2,7 @@ package domain
 
 import (
 	"context"
-	"ride-sharing/shared/types"
+	"hermes/shared/types"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

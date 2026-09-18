@@ -1,4 +1,4 @@
-module ride-sharing
+module hermes
 
 go 1.25.0
 
